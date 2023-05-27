@@ -17,3 +17,4 @@ Checks info for Discord connection via Gumroad's "license key" feature.
 
 ![Setting up linked role](linked-role-setup.png)
 ![Prompted to enter license key](enter-key.png)
+![Finished](finished.png)
