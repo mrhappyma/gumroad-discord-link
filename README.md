@@ -1,6 +1,8 @@
-# yet unnamed gumroad discord linked roles
+# gumroad-discord-link
 
-need to set up a discord bot for every product because of the way the metadata is
+Discord "linked roles" or "role connections" for Gumroad products. Need a septate Discord bot set up per product because of how Discord does the metadata stuff.
+
+Checks info for Discord connection via Gumroad's "license key" feature.
 
 ```
 #.env
@@ -12,3 +14,6 @@ need to set up a discord bot for every product because of the way the metadata i
   PRODUCT_ID="" # Gumroad product ID. Shows up where you turn on license keys.
   PRODUCT_NAME="" # Name shown in Discord, "Owns [product name]". Defaults "some thing".
 ```
+
+![Setting up linked role](linked-role-setup.png)
+![Prompted to enter license key](enter-key.png)
